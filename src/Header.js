@@ -46,7 +46,7 @@ const Header = () => {
    <img 
     className="header_logo"
     alt="amzn_logo"
-    src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" 
+    src="https://res.cloudinary.com/anurag-cloud/image/upload/v1625380617/amzn_clone_imgs/amazon_PNG11_nyizmy.png" 
     />
    </Link>
    

@@ -36,7 +36,7 @@ const SignIn = ()=> {
     return (
         <div className="signin">
         <Link to="/">
-        <img className="auth_logo" alt="amzn_logo" src="https://pngimg.com/uploads/amazon/amazon_PNG6.png" />
+        <img className="auth_logo" alt="amzn_logo" src="https://res.cloudinary.com/anurag-cloud/image/upload/v1625380621/amzn_clone_imgs/amazon_PNG6_mfk5s7.png" />
         </Link>
 
        <div className="signin_form">
