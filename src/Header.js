@@ -13,7 +13,7 @@ const Header = () => {
 
        const renderHome = async () => {
        try{
-           const res = await fetch("/getdata", {
+           const res = await fetch("https://mern--amazon-clone.herokuapp.com/getdata", {
                method: "GET",
                headers:{
                    "Content_Type": "application/json"

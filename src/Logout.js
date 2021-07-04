@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 const Logout = () => {
     const history = useHistory();
     useEffect(() => {
-        fetch("/logout", {
+        fetch("https://mern--amazon-clone.herokuapp.com/logout", {
             method:"GET",
             headers:{
                 Accept:"application/json",

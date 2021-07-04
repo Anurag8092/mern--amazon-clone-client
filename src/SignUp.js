@@ -32,7 +32,7 @@ const handleSubmit = async (e) => {
 
        const { name, email, password } = user;
 
-       const res = await fetch("/signup", {
+       const res = await fetch("https://mern--amazon-clone.herokuapp.com/signup", {
            method:"POST",
            headers:{
                "Content-Type": "application/json"

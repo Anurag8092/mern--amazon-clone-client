@@ -16,7 +16,7 @@ const Checkout = () => {
 
     const getData = async () => {
         try{
-            const res = await fetch("/getData", {
+            const res = await fetch("https://mern--amazon-clone.herokuapp.com/getData", {
                 method: "GET",
                 headers:{
                     Accept: "application/json",
@@ -52,7 +52,7 @@ const Checkout = () => {
         const {name, email} = user
         const date = new Date();
         
-        await fetch("/postorders", {
+        await fetch("https://mern--amazon-clone.herokuapp.com/postorders", {
             method:"POST",
             headers:{
                 "Content-Type": "application/json"

@@ -16,7 +16,7 @@ const [user, setUser] = useState({
 const addItem = async () => {
     if(user){
         try{
-            const res = await fetch("/getdata", {
+            const res = await fetch("https://mern--amazon-clone.herokuapp.com/getdata", {
                 method: "GET",
                 headers:{
                     Accept: "application/json",

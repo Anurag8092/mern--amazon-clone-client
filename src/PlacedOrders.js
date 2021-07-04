@@ -8,7 +8,7 @@ const  PlacedOrders = () => {
   const [orders, setOrders] = useState([]);
   
   useEffect(() => {
-      fetch("/orderhistory", {
+      fetch("https://mern--amazon-clone.herokuapp.com/orderhistory", {
           method:"GET",
           "Accept": "application/json",
           headers: {

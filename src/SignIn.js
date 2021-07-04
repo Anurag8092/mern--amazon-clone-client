@@ -11,7 +11,7 @@ const SignIn = ()=> {
 
   const handleSignin = async (e) => {
        e.preventDefault();
-       const res = await fetch("/signin", {
+       const res = await fetch("https://mern--amazon-clone.herokuapp.com/signin", {
            method:"POST",
            headers:{
                "Content-Type":"application/json"
